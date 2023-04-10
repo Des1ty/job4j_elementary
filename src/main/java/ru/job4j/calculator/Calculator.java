@@ -13,5 +13,12 @@ public class Calculator {
         System.out.println(size);
         size += 5;
         System.out.println(size);
+        Calculator.plus(1, 2);
+        Calculator.plus(10, 11);
+    }
+
+    public static void plus(int first, int second) {
+        int result = first + second;
+        System.out.println(result);
     }
 }
